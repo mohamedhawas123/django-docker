@@ -1,0 +1,31 @@
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const AUTH_LOGOUT = "AUTH_LOGOUT";
+
+
+export const ASSIGN_START = "ASSIGN_START";
+export const ASSIGN_SUCCESS = "ASSIGN_SUCCESS";
+export const ASSIGN_FAIL = "ASSIGN_FAIL";
+
+
+export const DETAIL_START = "DETAIL_START";
+export const DETAIL_SUCCESS = "DETAIL_SUCCESS";
+export const DETAIL_FAIL = "DETAIL_FAIL";
+
+
+
+export const CREATE_START = "CREATE_START";
+export const CREATE_SUCCESS = "CREATE_SUCCESS";
+export const CREATE_FAIL = "CREATE_FAIL";
+
+
+export const GRADED_START = "GRADED_START";
+export const GRADED_SUCCESS = "GRADED_SUCCESS";
+export const GRADED_FAIL = "GRADED_FAIL";
+
+
+export const POSTGRADED_START = "POSTGRADED_START";
+export const POSTGRADED_SUCCESS = "POSTGRADED_SUCCESS";
+export const POSTGRADED_FAIL = "POSTGRADED_FAIL";
+
