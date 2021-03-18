@@ -134,10 +134,12 @@ class removefromcart(APIView):
 
                     order_item.quantity -= 1
                     order_item.save()
+                else:
+                    order.items.remove(order_item)
+                return Response(status=HTTP_200_OK)
             else:
 
-                order.items.remove(order_item)
-            return Response(status=HTTP_200_OK)
+                return Response({"message": "This item was not in your cart"}, status=HTTP_400_BAD_REQUEST)
         else:
 
             return Response({"message": "Incorrect "}, status=HTTP_400_BAD_REQUEST)
